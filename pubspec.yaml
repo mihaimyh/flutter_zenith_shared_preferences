@@ -1,0 +1,27 @@
+name: flutter_zenith_shared_preferences
+description: >-
+  SharedPreferences-backed ZenithStorage for flutter_zenith: synchronous reads for
+  PersistedNode, scoped deletes for SharedPreferences, zero surprises.
+repository: https://github.com/mihaimyh/flutter_zenith_shared_preferences
+homepage: https://github.com/mihaimyh/flutter_zenith_shared_preferences
+issue_tracker: https://github.com/mihaimyh/flutter_zenith_shared_preferences/issues
+topics:
+  - state-management
+  - persistence
+  - shared-preferences
+
+version: 0.1.0
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_zenith: ^0.15.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
